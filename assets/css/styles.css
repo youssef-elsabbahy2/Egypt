@@ -76,6 +76,10 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
+
+
+
+  
   --first-color-second: hsl(var(--hue-color), 54%, 12%);
   --title-color: hsl(var(--hue-color), 24%, 95%);
   --text-color: hsl(var(--hue-color), 8%, 75%);
@@ -866,7 +870,7 @@ h2 span
 }
 
 .scrollup__icon {
-  color: var(--white-color);
+  
   font-size: 1.2rem;
 }
 
@@ -909,11 +913,12 @@ h2 span
 }
 .nav__logo
 {
-  margin-left: 334px;
+  margin-left: 293px;
 }
 .nav__logo span
 {
   width: 90px;
+  margin-left: -54px;
 }
   .experience__content {
     padding: 0;
